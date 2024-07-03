@@ -110,3 +110,54 @@ header{
     left: 90px;
     rotate: -90deg;
 }
+ 
+/* ---------tournament starts------------ */
+
+.tournaments{
+    background-color: #f4f4ef;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+}
+ 
+.tour-heading{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+}
+ 
+.card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    gap: 50px;
+    background-color: #f4f4ef;
+}
+ 
+.card{
+    background-color: white;
+    padding: 0 0 20px 0;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+}
+ 
+.card img{
+    height: 250px;
+    width: 100%;
+}
+ 
+.tour-info h2{
+    font-size: 18px;
+    padding-top: 20px;
+    color: white;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.tour-info a img{
+    width: 100px;
+    height: 100px;
+}
