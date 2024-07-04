@@ -7,6 +7,7 @@
     text-decoration: none;
     list-style: none;
     font-family: "Inter", sans-serif;
+    font-family: "Syne Mono";
 }
  
 /* header styling */
@@ -466,9 +467,101 @@ header{
     color: #333;
 }
 
+
+/*--------------faq starts---------------*/
+
+/* *,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Syne Mono";
+    font-weight: 100;
+} */
+
+.accordion-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #282828;
+    font-family: "Syne Mono";
+}
+
+.heading{
+    color: white;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    letter-spacing: 5px;
+}
+
+.accordion{
+    max-width: 500px;
+    /* find the meaninig */
+    width: calc(100%-20px); 
+}
+
+details{
+    background-color: #1E1E1E;
+    margin-bottom: 15px;
+    /* find the below meaning */
+    filter: drop-shadow(5px 5px 0px #0A0A0A);
+}
+
+details:hover{
+    filter: drop-shadow(5px 5px 4px #0A0A0A);
+}
+
+details > summary{
+    color: #f4de64;
+    padding: 5px 10px;
+    font-size: 1.3em;
+    cursor: pointer;
+    font-family: "Syne Mono";
+}
+
+details > p{
+    padding: 5px 10px 10px 20px;
+    color: #ddd;
+    line-height: 25px;
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: "Syne Mono";
+}
+
+.accordion summary {
+  cursor: pointer;
+  position: relative;
+  padding-left: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.accordion summary::before {
+  content: '\25B8'; /* Unicode for right-pointing triangle */
+  position: absolute;
+  left: -5px;
+  top: 0;
+  font-size: 1.4em;
+  transform: rotate(0deg); /* Initially pointing right */
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg); /* Pointing down when open */
+}
+
+
+
+/* --------------faq ends-----------------*/
+
 /* ---------------footer starts---------- */
 
 footer{
     text-align: center;
     padding: 20px 0;
 }
+
+/* ----------------footer ends--------------*/
