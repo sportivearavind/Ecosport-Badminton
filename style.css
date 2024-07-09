@@ -587,11 +587,20 @@ footer{
 @media (max-width: 1600px) {
     /*header*/
     .left h1{
-        font-size: 3rem;
+        font-size: 4rem;
     }
     .left p{
         font-size: 1.3rem;
         line-height: 1.7rem;
+    }
+
+    .navbar ul{
+        width: 40%;
+    }
+
+    /* tournament */
+    .card-container{
+        width: 85%;
     }
 }
 
