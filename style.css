@@ -628,6 +628,14 @@ footer{
     .card-container{
         width: 85%;
     }
+
+    /* about */
+    .about-wrapper{
+        width: 80%;
+    }
+    .about-left p{
+        font-size: 1.3rem;
+    }
 }
 
 /*tablet - medium*/
@@ -751,6 +759,18 @@ footer{
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+    }
+
+    /* about */
+    .about-wrapper{
+        width: 85%;
+    }
+    .about-left p{
+        font-size: 1.1rem;
+    }
+
+    .about-right img{
+        height: 280px;
     }
 }
 
@@ -876,6 +896,19 @@ footer{
     /* ------tournament--------*/
     .card-container{
         width: 85%;
+    }
+
+    /* about */
+    .about-wrapper{
+        width: 95%;
+    }
+    .about-left p{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .about-right img{
+        height: 220px;
     }
 
 }
