@@ -97,10 +97,13 @@ header{
 .right{
     width: 45%;
     position: relative;
+    /* border: 2px solid black; */
 }
  
 .right .smash{
     height: 85vh;
+    /* border:2px solid red; */
+    width: 100%;
 }
  
 .right .cork{
@@ -583,6 +586,13 @@ footer{
 
 }
 
+/*only for image */
+@media (max-width: 1634px){
+    .right .smash{
+        height: 75vh;
+    }
+}
+
 /*desktop*/
 @media (max-width: 1600px) {
     /*header*/
@@ -745,9 +755,9 @@ footer{
     }
 
     .content .right{
-        width: 100%;
+        width: 45%;
         padding: 0;
-        margin: 0;
+        margin: auto;
         /* border: 2px solid red; */
         display: flex;
         align-items: center;
@@ -766,7 +776,7 @@ footer{
         /* border: 2px solid black; */
         height: 4rem;
         top: -2rem;
-        left: 13rem;
+        left: 6rem;
     }
 
     /* coaching */
@@ -901,15 +911,15 @@ footer{
     }
 
     .content .right{
-        width: 100%;
+        height: 20vh;
         padding: 0;
-        margin: 0;
+        margin: auto;
         /* border: 2px solid red; */
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
-        margin-top: -8rem;
+        margin-top: -4rem;
     }
 
     .content .right .smash{
@@ -919,8 +929,8 @@ footer{
     .content .right .cork{
         position: absolute;
         height: 4rem;
-        top: -2rem;
-        left: 8rem;
+        top: -6rem;
+        left: 3rem;
     }
 
     /*-----coaching-----*/
