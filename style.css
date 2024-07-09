@@ -422,28 +422,34 @@ header{
 .contact-heading h2 {
     font-size: 36px;
     color: #333;
-    margin-bottom: 40px;
+    margin-bottom: 120px;
     color: white;
 }
 
 .social-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     margin-top: 90px;
+    /* border: 2px solid yellow; */
+    align-items: center;
+    width: 85%;
+    margin: auto;
 }
 
 .social-links a {
     text-decoration: none;
     color: #333;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
     color: white;
+    /* border: 2px solid white; */
+    padding: 0 10px;
 }
 
 .social-links i {
@@ -772,6 +778,20 @@ footer{
     .about-right img{
         height: 280px;
     }
+
+    /* contact */
+    .social-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+        height: 250px;
+    }
+
+    .contact-heading h2 {
+        margin-bottom: 20px;     
+    }
 }
 
 /*mobile*/
@@ -909,6 +929,24 @@ footer{
 
     .about-right img{
         height: 220px;
+    }
+
+    /* contact */
+    .social-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+        height: 250px;
+    }
+
+    .social-links a{
+        font-size: 13px;
+    }
+
+    .contact-heading h2 {
+        margin-bottom: 20px;     
     }
 
 }
