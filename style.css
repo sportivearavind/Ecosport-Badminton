@@ -455,8 +455,12 @@ header{
     padding: 0 10px;
 }
 
+.social-links a i{
+    margin-right: 5px;
+}
+
 .social-links i {
-    margin-right: 10px;
+    /* margin-right: 10px; */
     font-size: 30px;
     color: white;
 }
@@ -465,6 +469,7 @@ header{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    margin-left: -80px;
 }
 
 .links a {
@@ -845,6 +850,10 @@ footer{
         margin-bottom: 20px;     
     }
 
+    .links {
+        margin-left: 0;
+    }
+
     /* faq */
     .accordion{
         max-width: 400px;
@@ -1014,15 +1023,15 @@ footer{
     /* contact */
     .social-links{
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
-        margin-top: 100px;
-        height: 250px;
+        margin-top: 50px;
+        height: 180px;
     }
 
-    .social-links a{
-        font-size: 13px;
+    .social-links a  {
+        font-size: 14px;
     }
 
     .contact-heading h2 {
