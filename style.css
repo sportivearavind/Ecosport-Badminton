@@ -678,7 +678,7 @@ footer{
         justify-content: center;
         width: 100%;
         position: relative;
-        height: 450px;
+        height: 550px;
     }
 
     .navbar{
@@ -980,6 +980,19 @@ footer{
         width: 100%;
     }
 
+    .price-col{
+        width: 75%;
+    }
+
+    .coaching{
+        padding-bottom: 2rem;
+    }
+
+    .coaching h2 {
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+
     /* ------tournament--------*/
     .card-container{
         width: 85%;
@@ -998,6 +1011,10 @@ footer{
         margin: auto;
     }
 
+    .testimonials .slider p{
+        font-size:0.9rem;
+    }
+
     /* about */
 
     .about {
@@ -1012,7 +1029,7 @@ footer{
         width: 100%;
     }
     .about-left p{
-        font-size: 0.6rem;
+        font-size: 0.9rem;
         text-align: center;
     }
 
