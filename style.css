@@ -688,7 +688,7 @@ footer{
         top: 0;
     }
 
-    .navbar ul{
+    /* .navbar ul{
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -700,6 +700,10 @@ footer{
         position: absolute;
         top: 1rem;
         width: 90%;
+    } */
+
+    .navbar ul{
+        display: none;
     }
 
     .navbar ul a{
@@ -709,7 +713,7 @@ footer{
     .left h1{
         font-size: 2.5rem;
         /* border: 2px solid blueviolet; */
-        padding-top: 2.5rem;
+        /* padding-top: 2.5rem; */
     }
 
     .content{
@@ -741,11 +745,11 @@ footer{
     }
 
     .content .left p{
-        font-size: 1rem;
+        font-size: 1.2rem;
         /* border: 1px solid green; */
         text-align: center;
         margin-top: -2.5rem;
-        padding: 0 3rem;
+        padding: 0 1.4rem;
     }
 
     .content .left a{
@@ -766,17 +770,24 @@ footer{
         margin-top: -8rem;
     }
 
-    .content .right .smash{
+    /* .content .right .smash{
         height: 40vh;
         margin-top: 1rem;
-    }
+    } */
 
-    .content .right .cork{
+    .content .right .smash{
+        display: none;
+    } 
+
+    /* .content .right .cork{
         position: absolute;
-        /* border: 2px solid black; */
         height: 4rem;
         top: -2rem;
         left: 6rem;
+    } */
+
+    .content .right .cork{
+        display: none;
     }
 
     /* coaching */
@@ -845,7 +856,7 @@ footer{
         top: 0;
     }
 
-    .navbar ul{
+    /* .navbar ul{
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -857,6 +868,10 @@ footer{
         position: absolute;
         top: 1rem;
         width: 90%;
+    } */
+
+    .navbar ul{
+        display: none;
     }
 
     .navbar ul a{
@@ -866,7 +881,7 @@ footer{
     .left h1{
         font-size: 2rem;
         /* border: 2px solid blueviolet; */
-        padding-top: 2rem;
+        text-align: center;
     }
 
     .content{
@@ -891,10 +906,6 @@ footer{
         align-items: center;
         justify-content: flex-start;
         height: 100%;
-    }
-
-    .content .left h1{
-        margin-top: 1.2rem;
     }
 
     .content .left p{
