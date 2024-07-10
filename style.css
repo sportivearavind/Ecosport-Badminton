@@ -1040,7 +1040,7 @@ footer{
 
     /* faq */
     .accordion{
-        max-width: 400px;
+        max-width: 285px;
         width: calc(80%-20px); 
         margin: auto;
     }
