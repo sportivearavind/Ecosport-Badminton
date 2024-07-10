@@ -799,9 +799,29 @@ footer{
         justify-content: center;
     }
 
+    .price-col{
+        padding: 3% 5%;
+    }
+
+    /* testimonial */
+    .testimonials{
+        padding: 40px 20px;
+    }
+
+    .testimonials .title{
+        margin-bottom:40px
+    }
+
+    .testimonials .slider{
+        width: 100%;
+        margin:  0 auto;
+    }
+
+
     /* about */
     .about-wrapper{
         width: 85%;
+        margin: auto;
     }
     .about-left p{
         font-size: 1.1rem;
@@ -956,17 +976,39 @@ footer{
         width: 85%;
     }
 
+    /* testimonial */
+    .testimonials{
+        padding: 30px 10px;
+    }
+
+    .testimonials .title{
+        margin-bottom:20px
+    }
+
+    .testimonials .slider{
+        margin: auto;
+    }
+
     /* about */
+
+    .about {
+        padding: 10px 15px;
+    }
+
+    .about h2 {
+        margin-bottom: 20px;
+    }
+
     .about-wrapper{
-        width: 95%;
+        width: 100%;
     }
     .about-left p{
-        font-size: 0.9rem;
+        font-size: 0.6rem;
         text-align: center;
     }
 
     .about-right img{
-        height: 220px;
+        height: 150px;
     }
 
     /* contact */
